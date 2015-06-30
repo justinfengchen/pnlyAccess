@@ -13,7 +13,7 @@ public class ConnectAccess {
 	private static String _lymc="常州文化馆园"; 
 	
 	public static void main(String args[]) throws Exception {
-		 
+		   
 		ConnectAccess ca=new ConnectAccess();
 		ca.initAccessConnect(); 
 		Connection conn=ca.getConnection();
